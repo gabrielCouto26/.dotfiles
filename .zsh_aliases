@@ -1,0 +1,32 @@
+alias l='ls -lh --color=auto'
+alias ll='ls -lah --color=auto'
+
+# MyBackup project
+alias exec_backup='/home/gabriel/env/dev/my-backup/bin/python /home/gabriel/env/dev/my-backup/backup.py'
+
+# Pass-Database project
+alias passdb='bash /home/gabriel/env/dev/pass-storage/run.sh'
+
+# SCRIPTS
+alias alarme='bash ~/.scripts/alarme.sh'
+alias fla='bash ~/.scripts/fla.sh'
+alias tw='bash ~/.scripts/tw.sh'
+alias dormir='bash ~/.scripts/dormir.sh'
+alias naut='bash ~/.scripts/nautilus.sh'
+alias kp='ruby ~/env/dev/kill_processes/caller.rb'
+alias enc='bash ~/.scripts/encriptador.sh'
+
+# UTILS
+alias restart_bluetooth='sudo systemctl restart bluetooth.service'
+alias psaux="ps aux | grep $1"
+alias xopen='xdg-open '
+alias cnpj='echo "55.676.371/0001-80" | xclip -selection clipboard'
+alias dfc='df -h /dev/sda2 --output=source,fstype,size,used,avail,pcent' # disk usage
+alias dush='du -s -h *' * disk usage per folder
+
+# DOCKER
+alias dcmp='docker-compose '
+
+# WORKDIR
+alias dev='$HOME/env/dev'
+

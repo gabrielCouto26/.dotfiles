@@ -1,0 +1,25 @@
+[user]
+	email = gabrielcouto26@gmail.com
+	name = Gabriel Couto
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	cm = checkout master
+	cb = checkout -b
+	st = status -sb
+	sf = show --name-only
+	l1 = log --oneline --pretty=format:'%C(red)%h %Cgreen%cn %C(blue)%cr %C(white)%s %C(auto)%d%Creset'
+	unstage = reset HEAD --
+	undo = checkout --
+	rollback = reset --soft HEAD~1
+
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = red
+
+[color "diff"]
+	meta = yellow
+	old = red
+	new = green
